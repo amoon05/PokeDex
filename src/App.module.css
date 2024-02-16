@@ -90,3 +90,35 @@
   margin: auto;
   display: block;
 }
+
+.displaySearch {
+  padding: 5vh;
+}
+
+.displayList {
+  color: #65a765;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  justify-content: center;
+}
+
+.pokemonListContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 0;
+}
+
+.pokemonInfoContainer {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2vh;
+}
+
+.pokemonInfoContainer img {
+  height: auto;
+  width: 15vw;
+}
